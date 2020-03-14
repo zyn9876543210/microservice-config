@@ -1,0 +1,12 @@
+spring: 
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+name: cccdev
+---
+spring:
+  profiles: test
+name: cccest
