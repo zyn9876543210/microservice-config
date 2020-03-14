@@ -1,7 +1,7 @@
 ﻿spring: 
   profiles:
     active:
-    - dev
+    - test
 ---
 server:
   port: 1004
@@ -75,4 +75,4 @@ info:
    artifactId: $project.artifactId$
    version: $project.version$
    负责人: 张三
-   联系电话: 110
+   联系电话: 111
